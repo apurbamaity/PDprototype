@@ -1,0 +1,12 @@
+.answer_query_in{
+	background-color: #1A2238;
+	color:white;
+	border-radius: 0 0 0 30px;
+	border:2px solid #F1B814;
+}
+
+.answer_query_in input{
+	background-color: #FF6A3D;
+	color:white;
+	border-radius:10px;
+}

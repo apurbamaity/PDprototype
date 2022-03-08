@@ -1,0 +1,30 @@
+package com.apurba.walkover.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.apurba.walkover.model.duebill;
+import com.apurba.walkover.model.feedback;
+import com.apurba.walkover.model.member;
+import com.apurba.walkover.repository.duebillRepository;
+import com.apurba.walkover.repository.feedbackRepository;
+import com.apurba.walkover.repository.memberRepository;
+
+@RestController
+public class getallfeedback {
+	
+	@Autowired
+	public feedbackRepository feedrepo;
+	
+	@GetMapping("/getallfeedback")
+	public List<feedback> getallduebillsMethod() {
+		return feedrepo.findAll();
+	}
+	
+
+}

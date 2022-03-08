@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+h1,.h1 {
+	font-weight: 700;
+	font-size: 2.5rem;
+	line-height: 3.25rem;
+	letter-spacing: 0.5px;
+        font-family: 'Viga', sans-serif;
+}
+
+h2,.h2 {
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	letter-spacing: 0.4px;
+        font-family: 'Viga', sans-serif;
+}
+
+h3,.h3 {
+	font-weight: 700;
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+	letter-spacing: 0.2px;
+        font-family: 'Viga', sans-serif;
+}
+
+h4,.h4 {
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	letter-spacing: 0.2px;
+        font-family: 'Viga', sans-serif;
+}
+
+h5,.h5 {
+	font-weight: 700;
+	font-size: 1.25rem;
+	line-height: 1.625rem;
+        font-family: 'Viga', sans-serif;
+}
+
+h6,.h6 {
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 1.375rem;
+        font-family: 'Viga', sans-serif;
+}
+
+.p-large {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
+        font-family: 'Bree Serif', serif;
+}
+
+.p-small {
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+        font-family: 'Bree Serif', serif;
+}
+
+a{
+        text-decoration: none;
+}
+
+a:hover , a:focus{
+        text-decoration: none;
+}
+
+.make_it_pointer:hover{
+	cursor: pointer;
+}
+
+
+/*      NAVBAR  */
+
+.navbar{
+        background-color: #00ABE1;
+	border-bottom: 8px solid #1D1D2C;
+}
+
+.navbar a{
+        color : white;
+}
+
+.navbar a:hover , .navbar a:focus{
+        color:#F92C85;
+}
+
+/* HERO */
+
+.meke_flex{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+}
+
+.hero_pay_bills{
+	background-color: #1A2238;
+	color:white;
+	border-radius: 0 0 0 30px;
+}
+
+.hero_pay_bills input{
+	background-color: #FF6A3D;
+	color:white;
+	border-radius:10px;
+}
+
+.due_bill{
+	background-color: #9DAAF2;
+	color:white;
+	border-radius: 15px;
+}
+
+.hero input{
+	border-radius: 15px;
+}
+
+.user_wallet{
+	background-color: #490B3D;
+	border-radius: 20px;
+}
+
+/* BILL */
+.bill{
+	background-color: #490B3D;
+	color:white;
+}
+
+.card{
+	background-color: #490B3D;
+	color:white;
+	border:2px solid #F1B814;
+	border-radius: 20px;
+	
+}
+
+.pay_now{
+	background-color: #BD1E51;
+	border-radius: 15px 15px 20px 2px;
+}
+
+
+/* FEEDBACK */
+.Feedback .query_box input{
+	width: 100%;
+	background-color: #1A2238;
+	color: #F1B814;
+	border : none;
+}
+
+.Feedback{
+	background-color: #1A2238;
+	color:white;
+	border-radius: 0 0 0 30px;
+}
+.Feedback input[type="text"]:hover , .Feedback input[type="text"]:focus {
+	outline:none;
+}
+
+.ask_query{
+	background-color: #FF6A3D;
+	color:white;
+	border-radius:10px;
+}
+
+.faq{
+	background-color: #490B3D;
+}
+
+.faq .question{
+	color: #F1B814;
+}
+
+.faq .read_all{
+	background-color: #BD1E51;
+	border-radius: 15px 15px 20px 2px;
+}
+
+/* FOOTER */
+footer {
+	position: relative;
+	bottom:0;
+	background-color: #1D1D2C;
+	width: 100%;
+	height:1000px;
+	border-top: 10px solid #E40C2B;
+	color: white;
+}
+      
+      footer a {
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 5px;
+      }
+      
+      footer a:hover{
+	      color:white;
+	      cursor:pointer;
+	      border : none;
+	      border-bottom : 1px solid white;
+      }
+
+	  /* sidebar */
+	  .sidebar{
+		  position:fixed;
+		  left:0;
+		  top:0;
+		  height:100%;
+		  background-color: white;
+		  z-index: 1;
+		  border-right:10px solid #490B3D;
+		  display:none;
+	  }
+
+	  .text{
+		background-color: #490B3D;
+		color: #F1B814;
+		border-radius: 15px 0 15px 0px;
+	  }
+
+	  .logout{
+		  background-color: red;
+		  color:white;
+		  border-radius: 30px;
+		  position: absolute;
+		  bottom:2%;
+		  left:auto;
+	  }
+	  .logout1{
+		background-color: red;
+		color:white;
+		border-radius: 30px;
+	}
+
+	  .cross{
+		  position: absolute;
+		  right:10px;
+		  top:70px;
+	  }
